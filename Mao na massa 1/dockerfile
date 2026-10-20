@@ -1,0 +1,5 @@
+FROM nginx:alpine
+
+COPY loja_virtual/ /usr/share/nginx/html/
+
+EXPOSE 80
